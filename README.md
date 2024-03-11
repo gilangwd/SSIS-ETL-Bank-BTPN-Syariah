@@ -26,7 +26,7 @@ This projects perform ETL process using SQL Server Integration Services start fr
 ## SQL Server Integration Service
 ### Data Flow Task
 Data Flow Task for Customer History, transformation process for customer history table and load it into CSV flat file and Microsoft SQL Server Database.
-![Data Flow Task](./images/01.png|width=100)
+![Data Flow Task](./images/01.png){:width="50%"}
 
 ### SSIS Package
 Multiple Data Flow Task are executed sequentially. Start from Customer History until Customer Status to transform and load data for all table.
