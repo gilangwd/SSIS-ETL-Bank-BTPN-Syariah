@@ -1,5 +1,5 @@
 # Extract Transform Load using SSIS at Bank BTPN Syariah
-This repository contains a ETL process using SQL Server Integration Service and scheduler for automation using Apache Airflow for Bank BTPN Syariah credit card customer. The project is designed to get a clean data that is consistent and reliable for analysis.
+This repository contains an ETL process using SQL Server Integration Service and scheduler for automation using Apache Airflow for Bank BTPN Syariah credit card customer. The project is designed to get a clean data that is consistent and reliable for analysis.
 
 ## Project Overview
 This projects perform ETL process using SQL Server Integration Services start from extracting customer data from CSV flat file, then transform the data into clean data that is reliable for analysis and load this data into database and another CSV file to be used for analysis using Tableau.
@@ -19,7 +19,7 @@ This projects perform ETL process using SQL Server Integration Services start fr
 - `data_destination/` : Folder containing clean data result of load process.
 - `images/` : Folder containing images of data visualization, analysis result and logo of this project.
 - `Rakamin_BTPN_Syariah.dtsx` : SQL Server Integration Service Package containing ETL process.
-- `etl_btpns.py` : Airflow DAGs containing the code run SSIS package (dtsx) automatically based on the schedule.
+- `etl_btpns.py` : Airflow DAGs containing the code run SSIS package (.dtsx) automatically based on the schedule.
 - `Final_Project_BTPN_Syariah_Presentation.pptx` : Project Presentation
 - `Final Task_Bank BTPN Syariah_Data Engineer_Gilang Wiradhyaksa.pdf` : Rakamin Final Project Task
 
@@ -31,3 +31,42 @@ Data Flow Task for Customer History, transformation process for customer history
 ### SSIS Package
 Multiple Data Flow Task are executed sequentially. Start from Customer History until Customer Status to transform and load data for all table.
 ![SSIS Package](./images/02.png)
+
+## Apache Airflow
+Airflow process to run SSIS package (.dtsx). This process automatically run everyday at 5am.
+![Airflow Schedule](./images/04.png)
+
+## Exploratory Data Analysis
+To get an insight based on the data, we need to do data analysis. To achieve this we need data visualization and I do this using Tableau
+
+### Data Connection
+![Tableau Connection](./images/07.png)
+
+### Churn Distribution
+![Churn Distribution](./images/08_Churn_Distribution.png)
+
+### Income Category
+![Income Category](./images/09_Income_Category.png)
+
+### Marital Status
+![Marital Status](./images/10_Marital_Status.png)
+
+### Dashboard
+![Dashboard](./images/11_Dashboard.png)
+
+## Conclusion
+- Based on the visualization we found that most of Bank BTPN Syariah Credit Card customer is came from people with income less than 5m per month.
+- Also their most customer age is between 40 to 55 years old.
+- The percentage of customer churn based on marital status is about the same. Means there is no correlation between churn and marital status.
+
+## Suggestion
+- For customer with high-income, giving a reward for using their credit card very often, so this customer will feel appreciated and respected. For high-income customer, appreciating them is more important rather than give them a discount or promotion.
+- Whilst for low-income customer can give them a promotion/discount for a relatively low-cost item if they use credit card to attract them for using their credit card more.
+- Do not make a promotion based on the marital status since there is no correlation between marital status and customer churn.
+- Invest in providing exceptional customer service experiences. Ensure that customer support is easily accessible, responsive, and empathetic. Train representatives to address customer concerns effectively and resolve issues promptly.
+
+## Acknowledgements
+Tableau Dashboard [Dashboard](https://public.tableau.com/profile/api/publish/BTPN_Syariah_Credit_Card_Customer/BTPNSCreditCardCustomer)
+
+## Author
+- Gilang Wiradhyaksa | [Linkedin](https://www.linkedin.com/in/gilangwiradhyaksa/) | [GitHub](https://github.com/gilangwd)
