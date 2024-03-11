@@ -40,18 +40,23 @@ Airflow process to run SSIS package (.dtsx). This process automatically run ever
 To get an insight based on the data, we need to do data analysis. To achieve this we need data visualization and I do this using Tableau
 
 ### Data Connection
+---
 ![Tableau Connection](./images/07.png)
 
 ### Churn Distribution
+---
 ![Churn Distribution](./images/08_Churn_Distribution.png)
 
 ### Income Category
+---
 ![Income Category](./images/09_Income_Category.png)
 
 ### Marital Status
+---
 ![Marital Status](./images/10_Marital_Status.png)
 
 ### Dashboard
+---
 ![Dashboard](./images/11_Dashboard.png)
 
 ## Conclusion
