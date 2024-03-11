@@ -81,4 +81,4 @@ Project presentation can be seen at [Presentation](https://youtu.be/6J4IU2deZZw)
 Tableau Dashboard can be accessed as follows [Dashboard](https://public.tableau.com/profile/api/publish/BTPN_Syariah_Credit_Card_Customer/BTPNSCreditCardCustomer)
 
 ## Author
-- Gilang Wiradhyaksa | [Linkedin](https://www.linkedin.com/in/gilangwiradhyaksa/) | [GitHub](https://github.com/gilangwd)
+Gilang Wiradhyaksa | [Linkedin](https://www.linkedin.com/in/gilangwiradhyaksa/) | [GitHub](https://github.com/gilangwd)
