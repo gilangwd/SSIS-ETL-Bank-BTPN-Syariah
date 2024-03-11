@@ -46,14 +46,20 @@ To get an insight based on the data, we need to do data analysis. To achieve thi
 ### Churn Distribution
 ---
 ![Churn Distribution](./images/08_Churn_Distribution.png)
+- Churn customer for BTPN Syariah Credit Card customer is at 16.07%. 
+- Considered bad because according to forbes.com the normal churn rate is 5-7%. 
 
 ### Income Category
 ---
 ![Income Category](./images/09_Income_Category.png)
+- Most of the credit card customer is in low-income category. 
+- Most churn customer is came from customer with under 5m per month. 
 
 ### Marital Status
 ---
 ![Marital Status](./images/10_Marital_Status.png)
+- Most of the Credit Card customer is Single and Married. 
+- Percentage of customer churn in each status is about the same at 15-17%.
 
 ### Dashboard
 ---
