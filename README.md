@@ -77,7 +77,7 @@ To get an insight based on the data, we need to do data analysis. To achieve thi
 - Invest in providing exceptional customer service experiences. Ensure that customer support is easily accessible, responsive, and empathetic. Train representatives to address customer concerns effectively and resolve issues promptly.
 
 ## Acknowledgements
-Project presentation can be seen at [Presentation](https://youtu.be/6J4IU2deZZw)
+Project presentation can be seen at [Presentation](https://youtu.be/6J4IU2deZZw)  
 Tableau Dashboard can be accessed as follows [Dashboard](https://public.tableau.com/profile/api/publish/BTPN_Syariah_Credit_Card_Customer/BTPNSCreditCardCustomer)
 
 ## Author
